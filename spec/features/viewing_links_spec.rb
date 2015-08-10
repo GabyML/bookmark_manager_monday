@@ -1,3 +1,7 @@
+require_relative '../../data_mapper_setup.rb'
+require 'spec_helper.rb'
+
+
 feature 'Viewing links' do
 
   scenario 'I can see existing links on the links page' do
@@ -17,3 +21,4 @@ feature 'Viewing links' do
     end
   end
 end
+
